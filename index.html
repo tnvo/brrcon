@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>BrrCON</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="css/grayscale.css" rel="stylesheet">
+
+
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="./img/logo3.png" width="70"></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./speaker.html">Speakers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./volunteer.html" >Volunteer</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Intro Header -->
+  <header class="masthead">
+    <div class="intro-body" id="snow-target">
+      <div class="container" >
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <!--
+            <h1 class="brand-heading"><font color="#00cdcd">BRR</font>CON</h1>
+          -->
+            <img src="./img/web_logo.png" width="400" onclick="snowStorm.stop();return false"> <br />
+            <p class="intro-text">June 8, 2018. <br />
+              <font color="#0080ff">Minneapolis Convention Center </font> <br />
+
+              <b>Theme</b>: <i>Building community, skills and relationships. </i><br /><br />
+
+              <a href="https://www.eventbrite.com/e/brrcon-18-tickets-43683837534" target="_blank" class="btn btn-default btn-lg">Register</a>
+              <a href="./speaker.html" class="btn btn-default btn-lg">Speaker</a>
+              <a href="./volunteer.html" class="btn btn-default btn-lg">Volunteer</a>
+
+            </p>
+            <a href="#about" class="btn btn-circle js-scroll-trigger">
+                <i class="fa fa-angle-double-down animated"></i>
+              </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="content-section text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h3>Cybersecurity Summit & Hacker Conference</h3>
+          <p>BrrCon is a <font color="#0080ff">FREE</font> cyber security training conference with the mission to facilitate knowledge sharing, network with peers and improve capabilities within the cyber security community.
+             BrrCon is funded exclusively by regional businesses and there will be no sponsor booths or vendor pitches.
+             <br /><br />
+
+             <b>Audience:</b><br />
+             -Cyber Security practitioners<br />
+             -Security researchers<br />
+             -Cyber program decision makers<br />
+<br />
+            <b>Style:</b> <br />
+            Combinations of presentations, workshops and competitions<br />
+          <br />
+
+            <br />
+          </p>
+
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contact" class="content-section text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+
+        <div class="contactContainer">
+          <h3>Contact </h3>
+          <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject">
+              <option value="--">-----</option>
+              <option value="gettingInvovled">I want to get involved</option>
+              <option value="speakerInquiry">Speaker Inquiry</option>
+              <option value="websiteIssue">Website Issue</option>
+              <option value="other">Other</option>
+            </select>
+
+            <label for="body">Body</label>
+            <textarea id="body" name="body" placeholder="Write something.." style="height:200px"></textarea>
+
+            <input type="submit" class="btn btn-default btn-lg" value="Submit">
+          </form>
+        </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Map Section
+    <div id="map"></div>
+    -->
+  <!-- Footer -->
+  <footer>
+    <div class="container text-center">
+      <p>Copyright &copy; BrrCON 2018</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/grayscale.min.js"></script>
+  <script type="text/javascript" src="js/snowstorm-min.js"></script>
+  <script>
+
+  snowStorm.snowColor = '#fff';
+  snowStorm.flakesMaxActive = 80;    // show more snow on screen at once
+  snowStorm.useTwinkleEffect = false; // let the snow flicker in and out of view
+  snowStorm.targetElement = 'snow-target';
+</script>
+</body>
+
+</html>
